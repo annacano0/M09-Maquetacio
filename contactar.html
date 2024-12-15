@@ -1,56 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contactar</title>
-        <link rel="stylesheet" href="../styles/styles.css">
-        <link rel="stylesheet" href="../styles/contactar.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactar</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/contactar.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="logo-container">
+            <a href="./index.html"><img src="./img/logo-humans.png" alt="Humans logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">La idea</a></li>
+                <li><a href="#">Llençat</a></li>
+                <li><a href="#">H-team</a></li>
+                <li><a href="#">Amistats</a></li>
+                <li><a href="#">Opinions</a></li>
+                <li><a href="./contactar.html">Contactar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
         <header>
-            <img src="./img/humanstxt-isolated-blank.gif" alt="Humans logo">
-            <nav>
-                <ul>
-                    <li><a href="#">La idea</a></li>
-                    <li><a href="#">Llençat</a></li>
-                    <li><a href="#">H-team</a></li>
-                    <li><a href="#">Amistats</a></li>
-                    <li><a href="#">Opinions</a></li>
-                    <li><a href="./contactar.html">Contactar</a></li>
-                </ul>
-            </nav>
+               <h1 class="underlined">Contacta amb nosaltres</h1>
+                <p>Si creus que falta cap informacio, o vols aportar / col·laborar
+                    amb nosaltres, contacta'ns. Tot/es tenim altres responsabilitats
+                    aixi que potser triguem en contestar, pero... prometem
+                    fer-ho!</p>
         </header>
-        <section>
-            <h1>Contacta amb nosaltres</h1>
-            <p>Si creus que falta cap informacio, o vols aportar / col·laborar
-                amb nosaltres, contacta'ns. Tot/es tenim altres responsabilitats
-                aixi que potser triguem en contestar, pero... prometem
-                fer-ho!</p>
-            <form action="#">
-                <label for="nom">Nom<span>*</span></label>
-                <input type="text" id="nom" name="nom">
+     
+        <form action="#">
+            <label for="nom">Nom<span>*</span></label>
+            <input type="text" id="nom" name="nom">
 
-                <label for="email">E-Mail<span>*</span></label>
-                <input type="text" id="email" name="email">
+            <label for="email">E-Mail<span>*</span></label>
+            <input type="text" id="email" name="email">
 
-                <label for="consulta">Consulta<span>*</span></label>
-                <textarea id="story" name="story" rows="5" cols="33">
-                    Escriu la teva consulta aqui
-                </textarea>
-            </form>
-        </section>
-        <footer>
+            <label for="consulta">Consulta<span>*</span></label>
+            <textarea id="story" name="story" rows="5" cols="33" placeholder="Escriu la teva consulta aqui"></textarea>
+            
+            <button>Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <div>
+            <p> <a  class="highlighted-hyperlink" href="#">Cerus que hi falta alguna cosa?</a></p>
             <div>
-                <p> <a href="#">Cerus que hi falta alguna cosa?</a></p>
+                <img class="small-logo" src="./img/twitter-logo.png" alt="twitter-logo">
+                <img class="small-logo" src="./img/intagram-logo.png" alt="instagram-logo">
+                <img class="small-logo" src="./img/facebook-logo.png" alt="facebook-logo">
+
+                <img class="small-logo" src="./img/spotify.png" alt="spotify">
             </div>
-            <div>
-                <img src="./img/ico-html5.png" alt="html5">
-                <img src="./img/logo-humans.png" alt="humans_logo">
-            </div>
-            <div>
-                <img src="./img/CC.png" alt="CopyRight">
-            </div>
-        </footer>
-    </body>
+        </div>
+        <div>
+            <img src="./img/ico-html5.png" alt="html5">
+            <img src="./img/humanstxt-isolated-blank.gif" alt="humans_logo">
+        </div>
+        <div>
+            <img src="./img/CC.png" alt="CopyRight">
+            <p>humans.txt is licensed under a <a class="highlighted-hyperlink" href="#">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unreported License</a></p>
+        </div>
+    </footer>
+</body>
+
 </html>
