@@ -1,5 +1,4 @@
-/*TODO: acabar slider*/
-/*SET MARGIN*/
+@import url('./styles.css');
 
 h1,
 article {
@@ -7,18 +6,8 @@ article {
 }
 
 /*SLIDER */
-.slider {
-  position: relative;
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-  border: 2px solid #ccc;
-}
-
 .slider img {
   width: 100%;
-  display: block;
-  transition: transform 0.5s;
 }
 
 /*SECTIONS*/
@@ -84,7 +73,9 @@ article {
   display: flex;
 }
 
-.small-section1 img, .small-section2 img{
-    width: 60%;
-    height: 20%;
+.small-section1 img, .small-section2 img {
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
 }
+

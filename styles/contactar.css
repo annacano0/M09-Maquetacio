@@ -1,3 +1,5 @@
+@import url('./styles.css');
+
 body > section {
     padding: 2% 20%;
   }
@@ -26,7 +28,7 @@ body > section {
     background-color: black;
     color: white;
     border-radius: 0.5em;
-    padding: 0.5em;
+    padding: 0.5em 1.5em;
     border-style: none;
     justify-self: center; 
     grid-column: 1 / -1; 
